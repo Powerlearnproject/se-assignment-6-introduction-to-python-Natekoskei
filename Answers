@@ -1,0 +1,106 @@
+1: Python Basics:
+
+Python is a high-level, interpreted programming language that emphasizes readability and maintainability. 
+Key features include:
+Readable syntax: Python uses indentation to define blocks of code, making it easy to follow.
+Extensive libraries: Python has a vast collection of libraries for tasks like data analysis, web development, and machine learning.
+Cross-platform compatibility: Python runs on multiple operating systems, including Windows, macOS, and Linux.
+
+Use Cases:
+Python is used in a wide range of applications, including:
+Data science: Data analysis, machine learning, and data visualization.
+Web development: Django and Flask are popular Python frameworks for building web applications.
+Scripting: Python is often used to create scripts for automating tasks or interacting with system resources.
+
+2 installing Python:
+Windows:
+Visit https://www.python.org/downloads/.
+Download the latest stable release.
+Double-click the .exe file and follow the installation instructions.
+MacOS:
+
+Open the Terminal and run:
+Brew install python
+.PATH
+may need to be updated.
+Linux:
+
+Sudo apt-get update
+Sudo apt-get install python3
+Verify Installation:
+Run
+Python --version
+In the console.
+Set up Virtual Environment:
+Install virtualenv:
+Pip install virtualenv
+Create a virtual environment:
+Virtualenv myvenv
+Activate the environment:
+Source myvenv/bin/activate
+.
+3 Python Syntax and Semantics:
+
+Print ("Hello, World!")
+Print ()
+Is a function that prints a value to the console?
+"Hello, World!"
+Is a string literal enclosed in double quotes.
+
+4 Data Types and Variables:
+ Numeric: int, float, complex
+Sequence: list, tuple, range
+Mapping: dict
+Set: set
+Boolean: bool
+x = 10  # int
+y = 3.14  # float
+my_list = [1, 2, 3]  # list
+my_dict = {"name": "Nathan", "age": 27}  # dict
+
+5 Control Structures:
+Conditional Statements:
+
+if condition:
+    # Code to execute if condition is True
+else:
+    # Code to execute if condition is False
+Loops:
+
+for item in iterable:
+    # Code to execute for each item in iterable
+
+6 Functions in Python:
+syntax
+def sum(a, b):
+    return a + b
+result = sum(1, 2)  # Calls the sum function
+
+7Lists and Dictionaries:
+Lists: Ordered, mutable collections of elements.
+Dictionaries: Unordered, mutable collections of key-value pairs.
+my_list = [1, 2, 3]
+my_dict = {"name": "John", "age": 30}
+8 Exception Handling:
+
+try:
+    # Code that may raise an exception
+except Exception as e:
+    # Code to handle the exception
+finally:
+    # Code that always runs, regardless of whether an exception is raised
+Modules and Packages:
+
+9 Modules: Files containing Python code that can be imported into other scripts.
+Packages: Collections of related modules.
+import math  # Imports the math module
+result = math.sqrt(2)  # Uses a function from the math module
+File I/O:
+
+# Read a file
+with open("file.txt", "r") as f:
+    content = f.read()
+
+# Write to a file
+with open("file.txt", "w") as f:
+    f.write("Hello, World!")
